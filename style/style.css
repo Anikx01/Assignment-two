@@ -19,12 +19,16 @@
 body{
     font-family: "Inter", sans-serif;
 }
+.display-flex{
+    display: flex;
+}
 /* Banner Navbar Related Style */
 .banner-container{
     max-width: 100%;
     height: 510px;
-    border: 2px solid blueviolet;
     background: linear-gradient(180deg, rgb(17, 17, 17), rgba(17, 17, 17, 0.7) 40%, rgb(0, 0, 0) 100%);
+    position: relative;
+    padding: 0.1px;
 }
 .navbar{
     max-width: 75%;
@@ -33,10 +37,6 @@ body{
     margin: 47px auto;
     justify-content: space-between;
 }
-.display-flex{
-    display: flex;
-}
-
 .navbar-fitness{
     font-size: 32px;
     font-weight: 800;
@@ -72,6 +72,10 @@ body{
     font-weight: 600;
     margin-left: 4px;
 }
+.navbar-icon{
+   display: none;
+  
+}
 
 /* Banner Text and Image Related Style */
 .banner-text-card-image{
@@ -99,7 +103,7 @@ body{
     font-size: 4.8rem;
     font-weight: lighter;
 }
-.text-paragraph{
+.text-paragraph p{
     color: rgba(255, 255, 255, 0.4);
     font-size: 0.7rem;
     margin-bottom: 10px;
@@ -147,6 +151,9 @@ body{
     margin-right: 10px;
     margin-top: 8px;
 }
+.fa-play{
+    display: none;
+}
 .first-card-text{
     margin-top: 8px;
 }
@@ -161,7 +168,7 @@ body{
     display: flex;
     border: 2px solid rgba(51, 49, 49, 0.171);
     border-radius: 8px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1);
     padding: 8px 8px;
     color: white;
@@ -175,4 +182,76 @@ body{
 .second-card p{
     font-size: 10px;
     font-weight: 400;
+}
+/* Media Query for mobile screen */
+@media screen and (max-width: 576px) {
+   .banner-container{
+    height: auto;
+    position: relative;
+    padding: 0.1px;
+    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(17, 17, 17, 0.7) 10%, rgb(0, 0, 0) 100%);
+   }
+   .navbar{
+    margin-top: 20px;
+   }
+   .navbar-menu{
+    display: none;
+   }
+   .navbar-icon{
+    margin-top: 15px;
+    position: relative;
+    display: inline;
+   }
+   .fa-bars{
+    
+    font-size: large;
+    color: white;
+   }
+   .banner-text-card-image{
+    flex-direction: column;
+    height: auto;
+    text-align: left;
+  
+   }
+   .text-title{
+    margin-bottom: 10px;
+   }
+   .join-club-now{
+    padding: 8px 14px;
+   }
+   .download-app{
+    padding: 8px 14px;
+   }
+   .text-title{
+     font-size: 1.5rem;
+   }
+   .text-paragraph p{
+    margin-bottom: 20px;
+   }
+   .banner-image{
+    position: relative;
+    top: -220px;
+   }
+   .first-card{
+    position: relative;
+    top: -300px;
+    left: 30px;
+   }
+   .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .fa-play{
+    display: inline;
+    color: white;
+    font-size: small;
+   }
+   .second-card{
+    position: relative;
+    top: -300px;
+    right: 30px;
+   }
+   
+ 
 }
