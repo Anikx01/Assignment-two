@@ -572,7 +572,7 @@ body{
     input,select{
         width: calc( 50% - 5px );
     }
-    #activity{
+    .activity{
         width: 98%;
     }
 }
