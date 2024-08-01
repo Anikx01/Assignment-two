@@ -230,6 +230,7 @@ body{
 .run-extra-mile{
     position: relative;
     width: 100%;
+    /* height: 80vh; */
     background-color: black;
 }
     .run-extra-mile-container{
@@ -284,6 +285,32 @@ body{
         border-radius: 8px;
         width: 80%;
         height: 75%;
+    }
+
+    /* BMI Calculator Related Style */
+    .bmi-calculator-text-container{
+        width: 100%;
+        /* height: 140px; */
+        background-color: black;
+        /* margin-top: -90px; */
+        position: relative;
+    }
+    .bmi-calculator-text{
+        position: relative;
+        padding: 35px 0px;
+        width: 45%;
+        margin: 0px auto;
+        color: white;
+        text-align:left;
+       
+    }
+    .bmi-calculator-text h3{
+        font-size: 3rem;
+    }
+    .bmi-calculator-text p{
+        margin-top: 10px;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.5);
     }
 /* Media Query for mobile screen */
 @media screen and (max-width: 576px) {
@@ -384,11 +411,12 @@ body{
 }
  
 /* Run Extra Mile Style For Small Device */
-
+  
     .run-extra-mile-container{
-        height: 120%;
+        height: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        
         
     }
     .run-text{
@@ -413,5 +441,19 @@ body{
     }
     .run-pic{
         width: 100%;
+    }
+    /* BMI Calculator Text Related Style For small device */
+    /* .bmi-calculator-text-container{
+        margin-top: 30px;
+    } */
+    .bmi-calculator-text{
+        width: 75%;
+        
+    }
+    .bmi-calculator-text h3{
+        font-size: 2.4rem;
+    }
+    .bmi-calculator-text p{
+        font-size: 0.8rem;
     }
 }
