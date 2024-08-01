@@ -384,7 +384,7 @@ body{
         margin-bottom: 0.6rem;
         
     }
-    #activity{
+    .activity{
         width: 80%;
     }
     .calculate-your-bmi button{
