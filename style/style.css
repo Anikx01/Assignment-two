@@ -183,8 +183,52 @@ body{
     font-size: 10px;
     font-weight: 400;
 }
+
+/* Change Your Habit Related Style */
+.change-habit-container{
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.change-habit-text{
+    margin-top: 60px;
+    text-align: center;
+}
+.change-habit-text h3{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.change-habit-text p{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5)
+}
+.change-habit-pic{
+    max-width: 75%;
+    height: 450px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.change-habit-pic img{
+    border-radius: 50%;
+}
+.change-habit-pic h5{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.change-habit-pic p{
+    margin-top: 5px;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.5);
+}
 /* Media Query for mobile screen */
 @media screen and (max-width: 576px) {
+
+    /* Banner Related Style For Small Device */
    .banner-container{
     height: auto;
     position: relative;
@@ -251,8 +295,30 @@ body{
    .second-card{
     position: relative;
     top: -270px;
-    right: 20px;
+    right: 30px;
    }
-   
+
+   /* Change Your Habit Style For Small Device */
+   .change-habit{
+    background-color: black;
+   }
+.change-habit-container{
+    position: relative;
+    margin-top: -150px;
+    height: 1440px;
+}
+
+   .change-habit-text h3{
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+.change-habit-text p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5)
+}
+.change-habit-pic{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
  
 }
