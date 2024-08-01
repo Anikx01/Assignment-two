@@ -225,6 +225,66 @@ body{
     font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* Run Extra Mile Related Style */
+.run-extra-mile{
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+    .run-extra-mile-container{
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.2);
+        position: relative;
+        /* border: 2px solid slateblue; */
+        max-width: 75%;
+        height: 350px;
+        margin: 0px auto;
+        margin-top: -100px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        border-radius: 8px;
+
+    }
+    .run-text{
+        width: 40%;
+        margin-left: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .run-text h3{
+        font-size: 3.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .run-text p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.8rem;
+    }
+    .join-now{
+        border: none;
+        margin-top: 10px;
+        padding: 12px 40px;
+        border-radius: 25px;
+        color: white;
+        background-color: rgb(212, 65, 43);
+        position: relative;
+        left: -138px;
+    }
+    .run-pic{
+        width: 40%;
+        /* border: 2px solid saddlebrown; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .run-pic img{
+        border-radius: 8px;
+        width: 80%;
+        height: 75%;
+    }
 /* Media Query for mobile screen */
 @media screen and (max-width: 576px) {
 
@@ -307,6 +367,7 @@ body{
     position: relative;
     margin-top: -150px;
     height: 1440px;
+    /* margin-bottom: 150px; */
 }
 
    .change-habit-text h3{
@@ -322,4 +383,35 @@ body{
     gap: 20px;
 }
  
+/* Run Extra Mile Style For Small Device */
+
+    .run-extra-mile-container{
+        height: 120%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .run-text{
+        margin-top: 20px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .run-text h3{
+        font-size: 1.8rem;
+        margin-bottom: 0.3rem;
+    }
+    .run-text p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.6rem;
+    }
+    .join-now{
+        width: 115%;
+        position: relative;
+        left: 15px;
+    }
+    .run-pic{
+        width: 100%;
+    }
 }
