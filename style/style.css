@@ -322,7 +322,7 @@ body{
     .bmi-calculator-chart{
         background: rgb(34, 34, 34);
         width: 100%;
-        height: 430px
+        height: 430px;
     }
     .bmi-calculator-chart-container{
         width: 75%;
@@ -482,7 +482,7 @@ body{
     /* Unique Section Related Style */
    .unique-part{
     width: 100%;
-    height: 1040px;
+    height: 540px;
     background-color: black;
     color: white;
    }
@@ -554,7 +554,85 @@ body{
     margin-bottom: 10px
    }
 
-
+   /* Footer Section Related Style  */
+   .footer-container{
+    background: rgb(34, 34, 34);
+        width: 100%;
+        height: 430px;
+   }
+   .footer-content{
+    position: relative;
+    width: 75%;
+    height: 250px;
+    /* border: 2px solid skyblue; */
+    margin: 0px auto;
+    display: flex;
+    gap: 0%;
+    padding-top: 30px;
+   }
+   .fitness-part{
+    position: relative;
+    width: 30%;
+    /* border: 2px solid salmon; */
+    margin-right: 60px;
+   
+   }
+   .footer-fitness{
+    font-size: 3.2rem;
+    margin-top: -13px;
+   }
+   .fitness-part p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    
+   }
+   .get-started{
+    position: relative;
+     width: 70%;
+     /* border: 2px solid yellowgreen; */
+     display: flex;
+     gap: 40%;
+     color: white;
+     
+   }
+   .get-started h3{
+    font-size: 2rem;
+   }
+   .get-started li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.3);
+   }
+   .get-started-one{
+    margin-left: 40px;
+   }
+   .get-started-one,.get-started-two{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   }
+   
+   .get-started-two{
+    position: relative;
+    
+   }
+   .last-part{
+    margin-top: 0px;
+    text-align: center;
+   }
+   .horizontal-line{
+    width: 75%;
+    margin: 0px auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   }
+   .last-part p{
+    font-size: 1rem;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.3);
+   }
 /* Media Query for mobile screen */
 @media screen and (max-width: 576px) {
 
@@ -792,6 +870,30 @@ body{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
+       }
+
+       /* Footer Section Related Style For Small */
+       .footer-container{
+        margin-top: -10px;
+        height: 740px;
+        padding-top: 20px;
+       }
+       .footer-content{
+        flex-direction: column;
+        gap: 40px;
+       }
+       .fitness-part{
+        width: 80%;
+       }
+       .get-started{
+        flex-direction: column;
+        gap: 40px;
+       }
+       .get-started-one{
+        margin-left: -04px;
+       }
+       .last-part{
+        margin-top: 370px;
        }
        
 }
