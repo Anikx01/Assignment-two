@@ -83,7 +83,7 @@ body{
        max-width: 75%;
        height: 400px;
        margin: 0px auto;  
-       gap: 300px;    
+       gap: 30%;    
 }
 .banner-card-image{
     position: relative;
@@ -538,6 +538,9 @@ body{
    }
    .plan-description{
     font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+   }
+   small{
     color: rgba(255, 255, 255, 0.5);
    }
    .access{
