@@ -24,7 +24,7 @@ body{
 }
 /* Banner Navbar Related Style */
 .banner-container{
-    max-width: 1540px;
+    max-width: 2140px;
     height: 510px;
     background: linear-gradient(180deg, rgb(17, 17, 17), rgba(17, 17, 17, 0.7) 40%, rgb(0, 0, 0) 100%);
     position: relative;
@@ -186,7 +186,7 @@ body{
 
 /* Change Your Habit Related Style */
 .change-habit-container{
-    max-width: 1540px;
+    max-width: 2140px;
     background-color: black;
     color: white;
     display: flex;
@@ -229,7 +229,7 @@ body{
 /* Run Extra Mile Related Style */
 .run-extra-mile{
     position: relative;
-    max-width: 1540px;
+    max-width: 2140px;
     /* height: 80vh; */
     background-color: black;
 }
@@ -293,7 +293,7 @@ body{
 
     /* BMI Calculator Related Style */
     .bmi-calculator-text-container{
-        max-width: 1540px;
+        max-width: 2140px;
        
         background-color: black;
     
@@ -322,7 +322,7 @@ body{
     /* BMI Calculator Chart Related Style */
     .bmi-calculator-chart{
         background: rgb(34, 34, 34);
-        max-width: 1540px;
+        max-width: 2140px;
         height: 430px;
     }
     .bmi-calculator-chart-container{
@@ -402,7 +402,7 @@ body{
 
     /* Meet Our Team Related Style */
     .meet-our-team-section{
-        max-width: 1540px;
+        max-width: 2140px;
         height: 940px;
         background-color: black;
     }
@@ -482,7 +482,7 @@ body{
 
     /* Unique Section Related Style */
    .unique-part{
-    max-width: 1540px;
+    max-width: 2140px;
     height: 540px;
     background-color: black;
     color: white;
@@ -561,7 +561,7 @@ body{
    /* Footer Section Related Style  */
    .footer-container{
     background: rgb(34, 34, 34);
-        max-width: 1540px;
+        max-width: 2140px;
         height: 430px;
    }
    .footer-content{
