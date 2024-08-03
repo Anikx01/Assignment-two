@@ -639,15 +639,19 @@ body{
    }
 /* Media Query for mobile screen */
 @media screen and (max-width: 576px) {
-
+    body{
+        /* background-color: black; */
+    }
     /* Banner Related Style For Small Device */
    .banner-container{
+    width: 100%;
     height: auto;
     position: relative;
     padding: 0.1px;
     background: linear-gradient(180deg, rgb(17, 17, 17), rgba(17, 17, 17, 0.7) 10%, rgb(0, 0, 0) 100%);
    }
    .navbar{
+    width: 75%;
     margin-top: 20px;
    }
    .navbar-menu{
@@ -664,6 +668,7 @@ body{
     color: white;
    }
    .banner-text-card-image{
+    width: 75%;
     flex-direction: column;
     height: auto;
     text-align: left;
@@ -716,6 +721,7 @@ body{
     background-color: black;
    }
 .change-habit-container{
+    width: 100%;
     position: relative;
     margin-top: -150px;
     height: 1440px;
@@ -738,6 +744,7 @@ body{
 /* Run Extra Mile Style For Small Device */
   
     .run-extra-mile-container{
+        width: 75%;
         height: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -788,6 +795,7 @@ body{
         margin-top: -5px;
     }
     .bmi-calculator-chart-container{
+        width: 75%;
         display: flex;
         flex-direction: column;
     }
@@ -831,9 +839,10 @@ body{
         font-size: 0.8rem;
     }
     .meet-our-team-pic{
-        width: 100%;
+        width: 75%;
         height: 1140px;
         padding: 6px 14px;
+        margin: 0px auto;
         grid-template-columns: repeat(1,1fr);
     }
     .meet-our-team-pic img{
@@ -851,40 +860,51 @@ body{
     }
 
     /* Unique Section Related Style For Small Device */
+   
     .unique-part{
         width: 100%;
-        height: 1300px;
-        background-color: black;
+        height: 1350px;
         margin-top: -5px;
+        
+       }
+       .price-plan-container{
+        
        }
     .price-plan-title{
         flex-direction: column;
         padding: 20px;
     }
     .price-plan-title h3{
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         margin-top: -20px;
+        margin:0px auto;
+       
     }
     .price-plan-title img{
-        width: 100%;
+        margin: 0px auto;
+        width: 90%;
         border-radius: 8px;
     }
     .price-plan-text{
-        /* margin-top: 50px; */
+        width: 75%;
+        margin: 0px auto;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
+        
        }
 
        /* Footer Section Related Style For Small */
        .footer-container{
-        margin-top: -10px;
+        margin-top: -5px;
         height: 740px;
         padding-top: 20px;
        }
        .footer-content{
+        width: 75%;
         flex-direction: column;
         gap: 40px;
+        
        }
        .fitness-part{
         width: 80%;
@@ -899,5 +919,5 @@ body{
        .last-part{
         margin-top: 370px;
        }
-       
+      
 }
