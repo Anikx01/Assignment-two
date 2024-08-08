@@ -435,7 +435,8 @@ body{
         color: rgba(255, 255, 255, 0.5);
     }
     .meet-our-team-pic{
-        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
         padding: 0px 0px;
         border-radius: 18px;
         background: rgba(255, 255, 255, 0.1);
@@ -801,10 +802,14 @@ body{
     .join-now{
         width: 115%;
         position: relative;
-        left: 15px;
+        left: 0px;
     }
     .run-pic{
         width: 100%;
+    }
+    .run-pic img{
+        object-fit: cover;
+       
     }
     /* BMI Calculator Text Related Style For small device */
 
